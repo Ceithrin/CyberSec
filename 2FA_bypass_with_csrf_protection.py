@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 '''
-A simple script to solve "Lab: 2FA bypass using a brute-force attack" - Portswigger Web Security Academy.
+A simple script written to solve "Lab: 2FA bypass using a brute-force attack" - Portswigger Web Security Academy.
 Depending on your luck, it may take from a few minutes to about an hour to find the right mfa code.
 To know if I found the right code, I passed all requests through burp and in the HTTP history tab 
 I filtered them to display only the responses with the 3xx code and sorted them by name
