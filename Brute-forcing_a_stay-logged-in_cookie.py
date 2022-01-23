@@ -1,5 +1,3 @@
-from asyncio import base_events
-from email.mime import base
 import hashlib
 import base64
 import requests
@@ -30,7 +28,7 @@ for i, password in enumerate(cookies):
     base64_bytes = base64.b64encode(plain_cookie_bytes)
     cookies[i] = base64_bytes.decode('ascii')
 
-print(cookies)
+#print(cookies)
 
 for cookie in cookies:
     
