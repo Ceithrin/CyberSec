@@ -10,5 +10,16 @@ Url - https://h3y-buddy.vishwactf.com/
 
 **Solution**  
 
+In this challenge, we are greeted on the website with a window that allows us to enter our name:  
+![](writeupfiles/website.png)
+
 At first I went for a simple xss payload:  
 ![](writeupfiles/xss.png)
+
+But as successful as it was, it was a road to nowhere.
+Then I noticed that the creators of the task conveniently provided us with a sourcecode:
+
+![](writeupfiles/sourcecode.png)
+
+At this point it was pretty obvious. To make sure that we are dealing with SSTI i tried with simple payload:
+
