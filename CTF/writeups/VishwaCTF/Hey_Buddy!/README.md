@@ -41,7 +41,7 @@ I could also run commands like 'uname'. However it wasn't that simple to cat fla
 
 
 Yay, flag found :D  
-Another way to do this was simply using $IFS in beetwen 'cat' and 'flag.txt'
+Another way to do this was simply using $IFS in beetwen 'cat' and 'flag.txt'.
 
 
 
