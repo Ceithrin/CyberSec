@@ -9,5 +9,6 @@ Url - https://h3y-buddy.vishwactf.com/
 
 
 **Solution**  
-At first I went for a simple xss payload:
-![](writeupfiles/xss.jpg)
+
+At first I went for a simple xss payload:  
+![](writeupfiles/xss.png)
