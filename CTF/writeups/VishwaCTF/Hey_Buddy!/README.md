@@ -23,3 +23,8 @@ Then I noticed that the creators of the task conveniently provided us with a sou
 
 At this point it was pretty obvious. To make sure that we are dealing with SSTI i tried with simple payload:
 
+![](writeupfiles/ssti_check.png)
+
+And success ^^ Now we can exploit this SSTI.
+
+TODO: finish this writeup :P
