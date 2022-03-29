@@ -15,23 +15,23 @@ In this challenge, we are greeted on the website with a window that allows us to
 ![](writeupfiles/website.png)
 
 
-At first I went for a simple xss payload:  
+At first I went for a simple XSS payload:  
 
 ![](writeupfiles/xss.png)
 
 But as successful as it was, it was a road to nowhere.
-Then I noticed that the creators of the task conveniently provided us with a sourcecode:
+Then I noticed that the creators of the task conveniently provided us with the sourcecode - there was a button on the main page that led to /source.txt:
 
 ![](writeupfiles/sourcecode.png)
 
 
-At this point it was pretty obvious. To make sure that we are dealing with SSTI i tried with simple payload:
+To make sure that we are dealing with SSTI (Server Side Template Injection) I tried with a simple payload:
 
 ![](writeupfiles/ssti_check.png)
 
 
 Success ^^ Now we can exploit this.  
-After poking around and trying diffrent payloads I was able to list files on the server: 
+After poking around and trying different payloads I was able to list files on the server: 
 
 ![](writeupfiles/popenls.png)  
 
