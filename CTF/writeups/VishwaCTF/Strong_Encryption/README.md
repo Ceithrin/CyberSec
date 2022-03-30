@@ -61,9 +61,7 @@ strHex:    576e78697e65445c4a7c8033766770357c3960377460357360703a6f6982
 rKeyHex:   45  
 enKeyHash: 2f12f4712f4c769a75b33cb995fa169056168939a8b0b28eafe0d724f18dc4a7 
 
-Then we can see, that enKeyHash is not really needed - it is not used for the encryption of the message. The only thing we need to decrypt the ciphertext is
-'Key', which can be easly recovered because we know the enKey - "VishwaCTF", and we see that the Key is created by adding 69 to the ord value of every letter
-of the enKey.
+Then we can see, that the enKeyHash is not really needed - it is not used for the encryption of the message. The only thing we need to decrypt the ciphertext is 'Key', which can be easly recovered because we know the enKey - "VishwaCTF", and we see that the Key is created by adding 69 to the ord value of every letter of the enKey.
 
 To get the flag I wrote this simple script in Python:
 
